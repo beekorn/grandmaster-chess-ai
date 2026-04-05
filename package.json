@@ -25,5 +25,6 @@
     "vite": "^5.0.0"
   },
   "homepage": "https://grandmaster-chess-ai.vercel.app",
-  "deployUrl": "https://grandmaster-chess-ai.vercel.app"
+  "deployUrl": "https://grandmaster-chess-ai.vercel.app",
+  "githubUrl": "https://github.com/beekorn/grandmaster-chess-ai"
 }
