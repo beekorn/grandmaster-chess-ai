@@ -1,7 +1,5 @@
 {
-  "name": "grandmaster-chess-ai",
-  "buildCommand": "echo 'Static deploy'",
-  "installCommand": "echo 'Skipping install - CDN imports'",
-  "outputDirectory": ".",
-  "framework": null
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
