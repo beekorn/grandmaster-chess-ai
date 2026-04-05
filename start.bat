@@ -1,0 +1,3 @@
+@echo off
+echo Starting grandmaster-chess-ai via Test Hub...
+start "" "http://localhost:3000/project-files/grandmaster-chess-ai/"
