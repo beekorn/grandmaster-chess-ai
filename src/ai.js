@@ -76,7 +76,7 @@ const PST: Record<string, number[][]> = {
   ]
 };
 
-function evaluateBoard(game: Chess): number {
+function evaluateBoard(game) {
   let totalEvaluation = 0;
   const board = game.board();
 
@@ -110,7 +110,7 @@ function evaluateBoard(game: Chess): number {
 }
 
 // Minimax with Alpha-Beta Pruning
-function minimax(game: Chess, depth: number, alpha: number, beta: number, isMaximizingPlayer: boolean): number {
+function minimax(game, depth, alpha, beta, isMaximizingPlayer) {
   if (depth === 0 || game.isGameOver()) {
     return evaluateBoard(game);
   }
@@ -142,7 +142,7 @@ function minimax(game: Chess, depth: number, alpha: number, beta: number, isMaxi
   }
 }
 
-export function getBestMove(game: Chess, depth: number): string | null {
+export function getBestMove(game, depth) {
   const moves = game.moves();
   if (moves.length === 0) return null;
 
