@@ -24,7 +24,5 @@
     "typescript": "^5.2.0",
     "vite": "^5.0.0"
   },
-  "githubUrl": "https://github.com/beekorn/grandmaster-chess-ai",
-  "deployUrl": "https://grandmaster-chess-ai.vercel.app",
-  "homepage": "https://grandmaster-chess-ai.vercel.app"
+  "githubUrl": "https://github.com/beekorn/grandmaster-chess-ai"
 }
