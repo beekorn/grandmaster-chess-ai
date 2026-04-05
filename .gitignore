@@ -1,1 +1,7 @@
 .vercel
+
+# Prevent duplicate extensions (keep only .ts/.tsx)
+!**/*.ts
+!**/*.tsx
+/src/**/*.js
+/src/**/*.jsx

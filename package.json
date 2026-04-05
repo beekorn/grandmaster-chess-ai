@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "bash scripts/validate-deploy.sh",
+    "predeploy": "npm run validate"
   },
   "dependencies": {
     "react": "^18.2.0",
